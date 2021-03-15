@@ -4,6 +4,7 @@ function Button({ text }) {
     return (
         <button
             onClick={() => console.log(text)}
+            disabled={text === "pre-orders" ? true : ""}
         >{text}
         </button>
     );
