@@ -34,28 +34,28 @@ function App() {
                 bagImage={bagOne}
                 bagImageTitle="handy-bag"
                 bagName="The handy bag"
-                price="€450,-"
+                price="450"
             />
             <Product
                 bagSellingPoint="Best seller"
                 bagImage={bagTwo}
                 bagImageTitle="stylish-bag"
                 bagName="The stylish bag"
-                price="€250,-"
+                price="250"
             />
             <Product
                 bagSellingPoint="New collection"
                 bagImage={bagThree}
                 bagImageTitle="simple-bag"
                 bagName="The simple bag"
-                price="€300,-"
+                price="300"
             />
             <Product
                 bagSellingPoint="New collection"
                 bagImage={bagFour}
                 bagImageTitle="trendy-bag"
                 bagName="The trendy bag"
-                price="€150,-"
+                price="150"
             />
         </main>
         <footer>

@@ -6,7 +6,7 @@ function Product({ bagSellingPoint, bagImage, bagImageTitle, bagName, price }) {
             <span>{bagSellingPoint}</span>
             <img src={bagImage} alt={bagImageTitle} />
             <p>{bagName}</p>
-            <h4>{price}</h4>
+            <h4>€{price},-</h4>
         </article>
     )
 }
